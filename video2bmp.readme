@@ -1,0 +1,3 @@
+gcc video2bmp.c -o video2bmp -I ./ -L ./libavformat -L ./libavfilter -L ./libavcodec -L ./libavutil -L ./libswresample -L ./libavdevice -L ./libswscale  -lavformat -lavfilter -lavcodec -lavutil -lswresample -lavdevice -lswscale -lpthread -lm -lz
+
+./video2bmp webwxgetvideo.mp4 tmp
